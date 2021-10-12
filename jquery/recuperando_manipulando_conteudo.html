@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+		<html lang="pt-br">
+		<head>
+			<meta charset="utf-8">
+			<title>jQuery</title>
+
+
+			
+			
+			<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">				
+			</script>
+
+
+      <script>
+         $(document).ready(() => { 
+           
+             console.log('conteúdo div 1:', $('#div1').html())
+             console.log('conteúdo div 2:', $('#div2').html())
+         })
+
+      </script>
+			
+
+		</head>
+		<body>
+              
+              <div id="div1" style="border:solid 1px #000; width: 150px; height: 150px;">
+              	<a href="#">teste</a>
+              	<p>Esse e outro teste</p>
+              	Texto
+              	<div>Outro teste</div>
+
+              </div>
+
+              <div id="div2" style="border:solid 1px #000; width: 150px; height: 150px;">
+              	div 2
+
+              </div>
+         
+		</body>
+
+		
+</html>

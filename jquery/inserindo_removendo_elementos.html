@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+		<html lang="pt-br">
+		<head>
+			<meta charset="utf-8">
+			<title>jQuery</title>
+
+
+			
+			
+			<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous">				
+			</script>
+
+
+      <script>
+         $(document).ready(() => { 
+            
+            $('#lista1').html('<p>Eu substituir todo o conteudo que estava aqui!</p>')
+            $('#lista2').remove('<p>Eu fui inserido após a div</p>')
+            
+         })
+
+      </script>
+
+		</head>
+		<body>
+            
+   <ul id="lista1">
+    <li>Item 1</li>
+    <li>Item 2</li>
+    <li>Item 3</li> 
+   </ul>
+   
+   <div id="lista2">
+     <div>Item 1</div>
+     <div>Item 2</div>
+     <div>Item 3</div>
+   </div>
+
+   <hr />
+             
+         
+		</body>
+
+		
+</html>
